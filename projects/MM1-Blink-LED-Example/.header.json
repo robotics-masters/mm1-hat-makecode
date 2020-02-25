@@ -1,0 +1,18 @@
+{
+    "name": "MM1 Blink LED Example",
+    "meta": {},
+    "editor": "blocksprj",
+    "pubId": "",
+    "pubCurrent": false,
+    "target": "maker",
+    "targetVersion": "0.13.14",
+    "cloudSync": false,
+    "id": "d5a36788-f9bf-4069-0430-e483a05c33df",
+    "recentUse": 1582625888,
+    "modificationTime": 1582625888,
+    "path": "MM1-Blink-LED-Example",
+    "blobCurrent": false,
+    "saveId": null,
+    "board": "robotics-masters-robohatmm1-m4",
+    "githubCurrent": false
+}
