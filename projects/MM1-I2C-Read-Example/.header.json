@@ -1,0 +1,18 @@
+{
+    "name": "MM1 I2C Read Example",
+    "meta": {},
+    "editor": "blocksprj",
+    "pubId": "",
+    "pubCurrent": false,
+    "target": "maker",
+    "targetVersion": "0.13.14",
+    "cloudSync": false,
+    "id": "9cf25741-b6ba-428b-29ce-45db0879dd28",
+    "recentUse": 1582890255,
+    "modificationTime": 1582890255,
+    "path": "MM1-I2C-Read-Example",
+    "blobCurrent": false,
+    "saveId": null,
+    "board": "robotics-masters-robohatmm1-m4",
+    "githubCurrent": false
+}
