@@ -1,0 +1,18 @@
+{
+    "name": "MM1 NeoPixel Example",
+    "meta": {},
+    "editor": "blocksprj",
+    "pubId": "",
+    "pubCurrent": false,
+    "target": "maker",
+    "targetVersion": "0.13.14",
+    "cloudSync": false,
+    "id": "861e3f28-5007-4a12-f40e-83646b52c294",
+    "recentUse": 1582889769,
+    "modificationTime": 1582889769,
+    "path": "MM1-I2C-Example",
+    "blobCurrent": false,
+    "saveId": null,
+    "board": "robotics-masters-robohatmm1-m4",
+    "githubCurrent": false
+}

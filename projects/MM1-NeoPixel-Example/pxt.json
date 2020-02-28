@@ -1,0 +1,13 @@
+{
+    "name": "MM1 NeoPixel Example",
+    "description": "",
+    "dependencies": {
+        "robotics-masters-robohatmm1-m4": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "preferredEditor": "blocksprj"
+}

@@ -1,0 +1,21 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="dL.8orQdK%S^m:d}y*M|">strip</variable><variable id="RZRvPXUpfaUhWvY;RF6(">list</variable><variable id="6]F3I|l|KpqG%PXnu/OK">index</variable></variables><block type="pxt-on-start" x="20" y="20"><statement name="HANDLER"><block type="serial_redirect"><field name="tx">pins.PI_TX</field><field name="rx">pins.PI_RX</field><field name="rate">BaudRate.BaudRate9600</field><next><block type="variables_set"><field name="VAR" id="dL.8orQdK%S^m:d}y*M|">strip</field><comment id="undefined" pinned="false" h="80" w="160">mount an external Neopixel strip on pin NEOPIXEL
+
+
+
+
+
+with 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+RGB pixels</comment><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="neopixel_create_strip"><field name="pin">pins.NEOPIXEL</field><value name="numleds"><shadow type="math_number"><field name="NUM">3</field></shadow></value></block></value><next><block type="variables_set"><field name="VAR" id="RZRvPXUpfaUhWvY;RF6(">list</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="lists_create_with"><mutation items="3"/><value name="ADD0"><shadow type="math_number"><field name="NUM">255</field></shadow></value><value name="ADD1"><shadow type="math_number"><field name="NUM">65280</field></shadow></value><value name="ADD2"><shadow type="math_number"><field name="NUM">16711680</field></shadow></value></block></value></block></next></block></next></block></statement></block><block type="buttonEvent" x="762" y="20"><field name="button">input.button</field><field name="event">ButtonEvent.Down</field><statement name="HANDLER"><block type="light_set_strip_color"><comment id="undefined" pinned="false" h="80" w="160">show next colour on all pixels</comment><value name="strip"><block type="variables_get"><field name="VAR" id="dL.8orQdK%S^m:d}y*M|">strip</field></block></value><value name="rgb"><shadow type="colorNumberPicker"/><block type="lists_index_get"><value name="LIST"><block type="variables_get"><field name="VAR" id="RZRvPXUpfaUhWvY;RF6(">list</field></block></value><value name="INDEX"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="math_modulo"><value name="DIVIDEND"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get"><field name="VAR" id="6]F3I|l|KpqG%PXnu/OK">index</field></block></value><value name="DIVISOR"><shadow type="math_number"><field name="NUM">3</field></shadow></value></block></value></block></value><next><block type="variables_set"><field name="VAR" id="6]F3I|l|KpqG%PXnu/OK">index</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="math_arithmetic"><field name="OP">ADD</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get"><field name="VAR" id="6]F3I|l|KpqG%PXnu/OK">index</field></block></value><value name="B"><shadow type="math_number"><field name="NUM">1</field></shadow></value></block></value></block></next></block></statement></block></xml>
